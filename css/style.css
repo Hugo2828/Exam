@@ -8,3 +8,33 @@
 img{
     width: 100%;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* p{
+    width: 40%;
+    padding: 50px;
+}
+.ul{
+    
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+
+}
+ul:nth-child(odd){
+flex-direction: row-reverse;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
