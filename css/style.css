@@ -191,9 +191,7 @@ margin-bottom: 30px;
 .about-us{
     margin-top: 170px;
 }
-.talablar-item p{
-   
-}
+
 .div{
     margin: 0 50px;
 }
@@ -289,6 +287,12 @@ left:0px;
     width: 280px;
     line-height: 24px;
 }
+.menu{
+    padding: 8px 16px;
+    background:#00BAFC;
+    border-radius: 5px;
+    display: none;
+}
 .flx{
     display: flex;
     flex-direction: column;
@@ -309,4 +313,147 @@ left:0px;
 }
 
 
+@media(max-width:1320px){
+    .video{
+        width: 60%;
+    }
+}
 
+@media(max-width:1220px){
+    .video{
+        width: 70%;
+    }
+}
+
+@media(max-width:1120px){
+    .video{
+        width: 80%;
+    }
+}
+
+@media(max-width:1080px){
+    .video{
+        width: 90%;
+    }
+   
+}
+@media(max-width:1020px){
+    .youtube-section .container{
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    .video{
+        margin-left: 20px;
+        margin-bottom: 30px;
+        height: 350px;
+    }
+    .youtube {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       
+    }
+    .youtube h2{
+        width: 100%;
+    }
+    .youtube p{
+        width: 100%;
+    }
+   
+}
+@media(max-width:960px){
+    .nav-list{
+        display: none;
+    } 
+    .menu{
+        display: inline-block;
+    }
+
+    .ul-footer{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .li-footer{
+     
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .ll{
+       
+    }
+   
+}
+@media(max-width:740px){
+    
+   .buyurtma-p{
+       width: 600px;
+   }
+}
+@media(max-width:855px){
+    .youtube {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+       
+    }
+  
+}
+@media(max-width:680px){
+    
+    .buyurtma-p{
+        width: 80%;
+    }
+ }
+ @media(max-width:660px){
+    
+   .biz-p{
+       width: 80%;
+   }
+ }
+ @media(max-width:640px){
+    
+    .xz-p{
+        width: 80%;
+    }
+  }
+  @media(max-width:490px){
+    
+    .talablar-item img {
+        width: 55%;
+        height: 60%;
+    }
+  }
+  @media(max-width:430px){
+    
+    .div-form{
+        width: 90%;
+    }
+    .input{
+        width: 80%;
+    }
+  }
+  @media(max-width:400px){
+    
+    .talablar-item img {
+        width: 0;
+        height: 0;
+    }
+  }
+  @media(max-width:340px){
+    
+   .li-footer p{
+       width: 70%;
+   }
+   .ul-footer{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0;
+    align-items: center;
+}
+  }
