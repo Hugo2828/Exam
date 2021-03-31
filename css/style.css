@@ -467,3 +467,9 @@ left:0px;
     align-items: center;
 }
   }
+  @media(max-width:400px){
+    
+    .talablar-list {
+        text-align: center;
+    }
+  }
