@@ -9,6 +9,7 @@ img{
     width: 100%;
 }
 
+
 .container{
     width: 90%;
     margin: 0 auto;
@@ -98,6 +99,12 @@ html{
     align-items: center;
     justify-content: space-evenly ;
  
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    cursor: pointer;
 }
 .xizmatlar-item{
     width: 320px;
