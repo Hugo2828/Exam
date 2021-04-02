@@ -602,16 +602,16 @@ left:0px;
     justify-content: space-between;
     margin-left: 0;
     align-items: center;
-}
+ }
   }
   @media(max-width:400px){
     
     .talablar-list {
         text-align: center;
     }
-  }
+}
 
-
+}
 #tln{
     color: #fff;
 }
